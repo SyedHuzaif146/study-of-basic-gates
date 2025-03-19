@@ -1,6 +1,9 @@
-### Study-of-basic-gates
-Name : AKASH G
-REG NO.: 212224100004
+
+### Name : AKASH G
+### REG NO.: 212224100004
+
+### EXP 1 : Study-of-basic-gates
+
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -85,7 +88,8 @@ endmodule
 
 **RTL**
 
-<img width="1440" alt="Screenshot 2025-03-19 at 8 05 48 AM" src="https://github.com/user-attachments/assets/70bc90c3-374a-4da9-99b8-4ccf67100fcf" />
+![WhatsApp Image 2025-03-19 at 08 17 11](https://github.com/user-attachments/assets/12380c98-994f-495b-b7f6-54a2733d2a5b)
+
 
 **Result:**
 Hence, Studied and verified the truth table of logic gates in Quartus II using Verilog programming successfully.
