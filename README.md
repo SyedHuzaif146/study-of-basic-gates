@@ -1,5 +1,6 @@
-### study-of-basic-gates
-
+### Study-of-basic-gates
+Name : AKASH G
+REG NO.: 212224100004
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -52,28 +53,40 @@ Y= A⊕B
 **Procedure** 
 
 1.	Type the program in Quartus software.
-
 2.	Compile and run the program.
-
 3.	Generate the RTL schematic and save the logic diagram.
-
 4.	Create nodes for inputs and outputs to generate the timing diagram.
-
 5.	For different input combinations generate the timing diagram.
 
 
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
- 
+```
+module ORgate(A,B,Yor,Yand,Ynot,Ynand,Ynor,Yxor,Yxnor);
+input a,b;
+output Yor,Yand,Ynot,Ynand,Ynor,Yxor,Yxnor;
+assign Yor=a|b;
+assign Yand=a&b;
+assign Ynot=~a;
+assign Ynand=~(a&b);
+assign Ynor=~(a|b);
+assign Yxor=a^b;
+assign Yxnor=~(a^b);
+endmodule
+```
 **Logic symbol & Truthtable**
+
+![WhatsApp Image 2025-03-19 at 08 23 42](https://github.com/user-attachments/assets/ad53543b-5f55-49df-abbd-e1dd625f6a33)
 
 **RTL realization Output:** 
 
+<img width="941" alt="Screenshot 2025-03-19 at 8 49 14 AM" src="https://github.com/user-attachments/assets/214c4d6c-f655-4133-8b64-8f12c838fae2" />
+
 **RTL**
 
-**Result:**
+<img width="1440" alt="Screenshot 2025-03-19 at 8 05 48 AM" src="https://github.com/user-attachments/assets/70bc90c3-374a-4da9-99b8-4ccf67100fcf" />
 
+**Result:**
+Hence, Studied and verified the truth table of logic gates in Quartus II using Verilog programming successfully.
 
