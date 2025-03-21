@@ -1,6 +1,6 @@
 
-### Name : AKASH G
-### REG NO.: 212224100004
+### Name : SYED HUZAIF
+### REG NO.: 212224240166
 
 ### EXP 1 : Study-of-basic-gates
 
