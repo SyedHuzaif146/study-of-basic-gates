@@ -1,5 +1,8 @@
 ### study-of-basic-gates
-
+```
+Developed by: SYED HUZAIF
+RegisterNumber: 212224240166
+```
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -66,43 +69,33 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 ```
-Developed by: GAUTHAM KRISHNA S
+ module exp1(a, b, c);
+    input a;
+    input b;
+    output  [6:0] c;
 
-RegisterNumber: 212223240036
-```
-```py
-module LOGIC_GATES(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
-input a,b;
-output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
-and(andgate,a,b);
-or(orgate,a,b);
-not(notgate,a);
-nand(nandgate,a,b);
-nor(norgate,a,b);
-xor(xorgate,a,b);
-xnor(xnorgate,a,b);
+	assign c[0]= a & b;
+	assign c[1]= a | b;
+	assign c[2]= ~(a & b);
+	assign c[3]= ~(a | b);
+	assign c[4]= a ^ b;
+	assign c[5]= ~(a ^ b);
+	assign c[6]= ~ a;
+
 endmodule
 ```
-
 **Logic symbol & Truthtable**
 
-![image](https://github.com/gauthamkrishna7/study-of-basic-gates/assets/141175025/2f6d090e-b158-4a7f-a95c-8607e599e91a)
+![image](https://github.com/user-attachments/assets/455698f2-a33c-4fe3-a742-7dd8ce6e9eb3)
 
-![image](https://github.com/gauthamkrishna7/study-of-basic-gates/assets/141175025/40baeb41-c5d7-4de3-be03-c21544a9419a)
+**RTL realization Output:** 
 
+![image](https://github.com/user-attachments/assets/b2731c90-fc47-4805-a847-9ba9ea4d8189)
 
-**RTL realization:**
+**RTL**
 
-![image](https://github.com/gauthamkrishna7/study-of-basic-gates/assets/141175025/ec8c42e3-917f-4019-a1f5-a31d00f47b32)
-
- 
-**Output:** 
-
-![image](https://github.com/gauthamkrishna7/study-of-basic-gates/assets/141175025/0cceb6d6-38dd-4eca-a70e-df1b7f5cfdca)
-
+![image](https://github.com/user-attachments/assets/a77c0009-1c75-4134-9dfd-d0d5ba92d7e6)
 
 **Result:**
 
-Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
-
-
+Thus the truth table of logic gates in quartus II using verilog programming verified.
